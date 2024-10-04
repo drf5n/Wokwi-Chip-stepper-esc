@@ -1,0 +1,50 @@
+{
+  "name": "stepper-esc",
+  "author": "David Forrest",
+  "pins": [
+    "VMOT",
+    "INA",
+    "INB",
+    "GND",
+    "",
+    "Vout",
+    "B-",
+    "B+",
+    "A+",
+    "A-"
+  ],
+  "controls": [
+        {
+      "id": "Tau",
+      "label": "Tau value",
+      "type": "range",
+      "min": 1,
+      "max": 99,
+      "step": 1
+    },
+    {
+    "id": "Texp",
+      "label": "Tau exponent",
+      "type": "range",
+      "min": -3,
+      "max": 3,
+      "step": 1
+    },
+    {
+    "id": "MaxSpeed",
+      "label": "Max Speed RPM",
+      "type": "range",
+      "min": 0,
+      "max": 600,
+      "step": 1
+    },
+    {
+    "id": "OverrideVoltage",
+      "label": "Override Voltage",
+      "type": "range",
+      "min": -5,
+      "max": 5,
+      "step": 0.01
+    }
+  ]
+}
