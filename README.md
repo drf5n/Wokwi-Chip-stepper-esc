@@ -11,19 +11,20 @@ To use this chip in your project, include it as a dependency in your `diagram.js
 "dependencies": { "chip-stepper-esc": "github:drf5n/Wokwi-Chip-stepper-esc@1.0.1" }
 ```
 
-Then, add the chip to your circuit by adding a `chip-l298n` item to the `parts` section of `diagram.json`:
+Then, add the chip to your circuit by adding a `chip-stepper-esc` item to the `parts` section of `diagram.json`:
 
 ```json
   "parts": {
     ...,
     {
-      "type": "chip-stepper_esc",
+      "type": "chip-stepper-esc",
       "id": "esc1",
-      "attrs": { }
+      "attrs": {"Tau":"10", "Texp":"-1", "MaxSpeed":"60" }
     },
 ```
 
-The actual source code for the chip lives in [src/main.c](https://github.com/drf5n/Wokwi-Chip-L298N/blob/main/src/main.c), and the pins are described in [chip.json](https://github.com/drf5n/Wokwi-Chip-L298N/blob/main/chip.json).
+
+The actual source code for the chip lives in [src/main.c](https://github.com/drf5n/Wokwi-Chip-stepper-esc/blob/main/src/main.c), and the pins are described in [chip.json](https://github.com/drf5n/Wokwi-Chip-stepper-esc/blob/main/chip.json).
 
 ## Examples
 
