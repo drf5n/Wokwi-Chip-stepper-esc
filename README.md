@@ -8,7 +8,7 @@ stepper-esc -- Electronic Speed Controller for steppers.  Translates PWM to step
 To use this chip in your project, include it as a dependency in your `diagram.json` file:
 
 ```json
-"dependencies": { "chip-stepper-esc": "github:drf5n/Wokwi-Chip-stepper-esc@1.0.1" }
+"dependencies": { "chip-stepper-esc": "github:drf5n/Wokwi-Chip-stepper-esc@1.0.0" }
 ```
 
 Then, add the chip to your circuit by adding a `chip-stepper-esc` item to the `parts` section of `diagram.json`:
@@ -28,6 +28,8 @@ The actual source code for the chip lives in [src/main.c](https://github.com/drf
 
 ## Examples
 
+* [Wokwi Uno with bare stepper-esc chip with github dependency](https://wokwi.com/projects/411094383161553921) -- with LED-motors and scopes
+* [Wokwi Uno with bare stepper-esc chip with tabbed files](https://wokwi.com/projects/410499111488041985) -- with LED-motors and scopes
 * [Wokwi Uno with L298N driver  using tabbed files](https://wokwi.com/projects/410302035690579969) -- with LED-motors and scopes
 * [Wokwi Uno with L298N and stepper-ESCs  using tabs](https://wokwi.com/projects/410601389043609601) -- with LED motors and scopes
 
