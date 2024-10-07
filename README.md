@@ -33,6 +33,10 @@ The actual source code for the chip lives in [src/main.c](https://github.com/drf
 * [Wokwi Uno with bare stepper-esc chip with tabbed files](https://wokwi.com/projects/410499111488041985) -- with LED-motors and scopes
 * [Wokwi Uno with L298N and stepper-ESCs using tabs](https://wokwi.com/projects/410601389043609601) -- with LED motors and scopes
 
+## See also:
+
+* https://github.com/drf5n/Wokwi-Chip-TB6612FNG -- for a more efficient dual-h-bridge motor driver custom chip.
+* https://github.com/drf5n/Wokwi-Chip-L298N for a less efficient dual-h-bridge motor driver custom chip.
 
 ## Versions
 * github:drf5n/Wokwi-Chip-stepper-esc@1.0.1 -- non-Working release
